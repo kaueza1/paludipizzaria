@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  font-family: Roboto, sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1400px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botao {
+  background-color: var(--cor-1);
+  color: var(--cor-11);
+  padding: 8px 12px;
+  border-radius: 10px;
+  max-width: max-content;
+  cursor: pointer;
+}
+.botao-mais {
+  background-color: var(--cor-11);
+  color: var(--cor-1);
+  padding: 8px 12px;
+  border-radius: 10px;
+  max-width: max-content;
+  cursor: pointer;
+}

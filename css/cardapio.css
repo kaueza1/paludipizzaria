@@ -1,0 +1,86 @@
+.cardapio-bg {
+  background-color: var(--cor-1);
+}
+
+.cardapio {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.cardapio-logo {
+  place-self: center;
+}
+.cardapio-pizza-salgada {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.cardapio-pizza-salgada :nth-child(2) {
+  grid-column: 1;
+}
+.cardapio-pizza-doce {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.cardapio-pizza-doce :nth-child(2) {
+  grid-column: 1;
+}
+.cardapio-esfiha-salgada {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.cardapio-esfiha-salgada :nth-child(2) {
+  grid-column: 1;
+}
+.cardapio-esfiha-doce {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.cardapio-esfiha-doce :nth-child(2) {
+  grid-column: 1;
+}
+.cardapio-beirute {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+h2 {
+  margin-top: 40px;
+}
+.cardapio-mais {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .cardapio-pizza-salgada {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1100px) {
+  .cardapio-pizza-doce {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .cardapio-items {
+    display: none;
+  }
+  .cardapio-mais {
+    display: contents;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-content: center;
+    place-content: center;
+  }
+}
