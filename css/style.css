@@ -1,17 +1,17 @@
-@import url(/css/global.css);
-@import url(/css/componentes.css);
-@import url(/css/cores.css);
+@import url(./global.css);
+@import url(./componentes.css);
+@import url(./cores.css);
 
 /* header css */
-@import url(/css/header.css);
+@import url(./header.css);
 
 /* sobre */
-@import url(/css/sobre.css);
+@import url(./sobre.css);
 
 /* cardapio */
-@import url(/css/cardapio.css);
+@import url(./cardapio.css);
 
 /* contato */
-@import url(/css/contato.css);
+@import url(./contato.css);
 /* footer  */
-@import url(/css/footer.css);
+@import url(./footer.css);
